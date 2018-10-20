@@ -37,21 +37,6 @@ class Login extends Component{
 
 }
 
-//---------------------------------loginForm
-/*
-class LoginForm extends Component{
-  render() {
-    return(
-      <View style={styles.form}>
-        <Test />
-        <TextInput placeholder="  username or email" placeholderTextColor="white" underlineColorAndroid='transparent' style={styles.input} />
-        <TextInput placeholder="  password" placeholderTextColor="white" underlineColorAndroid='transparent' style={styles.input} />
-
-      </View>    
-    );
-  }
-}
-*/
 //---------------------------------------app
 
 export default class App extends Component {

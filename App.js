@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { AppRegistry , StyleSheet, Text, View, Image } from 'react-native';
+import { AppRegistry , StyleSheet, Text, View, Image, TextInput } from 'react-native';
 
 //------------------------------splash
 class Splash extends Component {
@@ -27,7 +27,7 @@ class Login extends Component{
           <Text style={styles.header1}>Welcome to HeySun</Text>
         </View>
         <View style={styles.formContainer}>
-
+          <LoginForm />
         </View>
 
       </View>
@@ -41,7 +41,9 @@ class Login extends Component{
 class LoginForm extends Component{
   render() {
     return(
-      <View>
+      <View style={styles.form}>
+        <TextInput placeholder="username or email" placeholderTextColor="grey" underlineColorAndroid='transparent' style={styles.input} />
+        <TextInput placeholder="password" placeholderTextColor="grey" underlineColorAndroid='transparent' style={styles.input} />
 
       </View>    
     );
@@ -84,6 +86,17 @@ const styles = StyleSheet.create({
   logo: {
     width: 120,
     height: 120
+  },
+  form: {
+    padding: 20,
+   
+  },
+  input: {
+    height: 40,
+    backgroundColor: 'rgba(225,225,225,0.7)',
+    color: '#9059ff',
+    marginBottom: 20,
+  
   },
 
 });

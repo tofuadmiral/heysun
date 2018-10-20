@@ -1,8 +1,6 @@
-
-HeySun is an application built at HackHarvard 2018 that tackles the InterLedger challenge of using BlockChain ledgers in a creative way.
-
 ## HackHarvard 2018 -- Harvard College
 
+HeySun is an application built at HackHarvard 2018 that tackles the InterLedger challenge of using BlockChain ledgers in a creative way.
 
 ## About
 The aim of HeySun is to help individuals reach their morning goals by providing them with an incentive to wake up.

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { AppRegistry , StyleSheet, Text, View, Image, TextInput } from 'react-native';
+import LoginForm from './Login/LoginForm'
 
 //------------------------------splash
 class Splash extends Component {
@@ -27,7 +28,7 @@ class Login extends Component{
           <Text style={styles.header1}>Welcome to HeySun</Text>
         </View>
         <View style={styles.formContainer}>
-          <LoginForm />
+          <LoginForm></LoginForm>
         </View>
 
       </View>
@@ -37,19 +38,20 @@ class Login extends Component{
 }
 
 //---------------------------------loginForm
-
+/*
 class LoginForm extends Component{
   render() {
     return(
       <View style={styles.form}>
-        <TextInput placeholder="username or email" placeholderTextColor="grey" underlineColorAndroid='transparent' style={styles.input} />
-        <TextInput placeholder="password" placeholderTextColor="grey" underlineColorAndroid='transparent' style={styles.input} />
+        <Test />
+        <TextInput placeholder="  username or email" placeholderTextColor="white" underlineColorAndroid='transparent' style={styles.input} />
+        <TextInput placeholder="  password" placeholderTextColor="white" underlineColorAndroid='transparent' style={styles.input} />
 
       </View>    
     );
   }
 }
-
+*/
 //---------------------------------------app
 
 export default class App extends Component {
@@ -93,8 +95,8 @@ const styles = StyleSheet.create({
   },
   input: {
     height: 40,
-    backgroundColor: 'rgba(225,225,225,0.7)',
-    color: '#9059ff',
+    backgroundColor: 'rgba(225,225,225,0.5)',
+    color: '#fff',
     marginBottom: 20,
   
   },
